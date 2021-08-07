@@ -5,3 +5,7 @@ This is the reworked website for KVM Group, as the current one is not the best. 
 ## Abandonware notice
 
 In the event that KVM Group, Ltd. goes insolvent the source code to this website will remain under ownership of the insolvent company unless stated otherwise. The source code should not be regarded as part of the public domain in case of insolvency unless KVM Group, Ltd. or any future copyright holder of this source code waives all of his / her rigths to it.
+
+## Beta release
+
+A preview for this website can be viewed at [undefined].
