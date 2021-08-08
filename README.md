@@ -8,4 +8,4 @@ In the event that KVM Group, Ltd. goes insolvent the source code to this website
 
 ## Beta release
 
-A preview for this website can be viewed at [undefined].
+A preview for this website can be viewed at [beta.kvm.group](https://beta.kvm.group/).
