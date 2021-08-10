@@ -23,5 +23,31 @@ export default function Home() {
 			</div>
 			<div className="flex-grow bg-hero bg-cover bg-no-repeat bg-center md:bg-initial" />
 		</div>
+		<div className="max-w-screen-xl mx-auto px-4 py-16">
+			<div>
+				<div className="text-center">
+					<h1 className="text-3xl font-medium">Our Brands</h1>
+					<p className="text-lg text-gray-800">These are the brands we sell our products through.</p>
+					<div className="pt-14">
+						<div className="flex whitespace-no-wrap overflow-x-hidden">
+							<div class="relative">
+								<ul class="flex animate-marquee-a-left items-center">
+									<img src="/static/logos/kubbur.svg" className="h-12 mx-8" />
+									<img src="/static/logos/icevm.svg" className="h-12 mx-8" />
+									<img src="/static/logos/dediguard.svg" className="h-12 mx-8" />
+									<img src="/static/logos/interstellar.svg" className="h-10 mx-8" />
+								</ul>
+								<ul class="flex absolute top-0 animate-marquee-b-left items-center">
+								<img src="/static/logos/kubbur.svg" className="h-12 mx-8" />
+									<img src="/static/logos/icevm.svg" className="h-12 mx-8" />
+									<img src="/static/logos/dediguard.svg" className="h-12 mx-8" />
+									<img src="/static/logos/interstellar.svg" className="h-10 mx-8" />
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</>);
 }
