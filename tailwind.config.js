@@ -4,8 +4,7 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Work Sans', 'sans-serif'],
-      poppins: ['Poppins', 'sans-serif']
+      sans: ['Ubuntu', 'sans-serif']
     },
     extend: {
       backgroundImage: theme => ({
