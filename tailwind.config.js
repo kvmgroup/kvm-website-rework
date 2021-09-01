@@ -1,14 +1,15 @@
 module.exports = {
-  mode: 'jit',
+  mode: 'normal',
   purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     fontFamily: {
       sans: ['Work Sans', 'sans-serif']
     },
     extend: {
       backgroundImage: theme => ({
-        'hero': "url('/static/images/lance-anderson-f2NKjOg6JBE-unsplash.jpg')"
+        'hero': "url('/static/images/lance-anderson-f2NKjOg6JBE-unsplash.jpg')",
+        'team': "url('/static/images/david-becker-gnOkAODKedI-unsplash.jpg')"
       }),
       backgroundPosition: {
         initial: 'initial'
@@ -16,8 +17,6 @@ module.exports = {
       animation: {
         'marquee-a-left': 'marquee-a-left 60s linear infinite',
         'marquee-b-left': 'marquee-b-left 60s linear infinite',
-        'marquee-a-right': 'marquee-a-right 60s linear infinite',
-        'marquee-b-right': 'marquee-b-right 60s linear infinite'
       },
       keyframes: {
         'marquee-a-left': {
@@ -26,14 +25,6 @@ module.exports = {
         },
         'marquee-b-left': {
           '0%': { transform: 'translateX(100%)' },
-          '100%': { transform: 'translateX(0%)' }
-        },
-        'marquee-a-right': {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(100%)' }
-        },
-        'marquee-b-right': {
-          '0%': { transform: 'translateX(-100%)' },
           '100%': { transform: 'translateX(0%)' }
         }
       }
