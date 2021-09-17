@@ -93,7 +93,7 @@ export default function Home() {
 
 							<p className="mt-5 text-gray-200">Kalkofnsvegur 2</p>
 							<p className="text-gray-200">101 Reykjavík, Iceland</p>
-							<p className="text-gray-200">+354 770 3210</p>
+							<p className="text-gray-200">+354 539 5409</p>
 						</div>
 						<div>
 							<h2 className="text-white text-xl font-medium uppercase">information</h2>
