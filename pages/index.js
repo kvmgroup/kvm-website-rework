@@ -17,7 +17,7 @@ export default function Home() {
 			</div>
 		</Headroom>
 		<div className="min-h-screen flex flex-col md:flex-row">
-			<div className="h-2/3 md:h-screen md:w-1/2 bg-gray-900 flex flex-col">
+			<div className="h-screen md:w-1/2 bg-gray-900 flex flex-col">
 				<div className="pt-8 pb-14 md:py-0 px-16 md:px-24 lg:px-32 xl:px-40 flex flex-grow justify-center items-center">
 					<div>
 						<h1 className="text-4xl xl:text-5xl text-white font-semibold">KVM is a global leader at innovation in the hosting space.</h1>
