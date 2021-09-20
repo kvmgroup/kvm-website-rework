@@ -96,7 +96,7 @@ export default function Home() {
 						<div>
 							<h2 className="text-white text-xl font-medium uppercase">information</h2>
 							<div className="pt-3">
-								<Link href="/company/governance"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">General terms</a></Link>
+								<Link href="/legal/general-terms"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">General terms</a></Link>
 								<Link href="/company/governance"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Privacy Policy</a></Link>
 								<Link href="/company/governance"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Acceptable Use Policy</a></Link>
 								<Link href="/company/governance"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Environmental Conservation</a></Link>
