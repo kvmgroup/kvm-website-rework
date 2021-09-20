@@ -38,13 +38,11 @@ export default function Home() {
 							<div class="relative">
 								<ul className="flex animate-marquee-a-left items-center">
 									<img src="/static/logos/kubbur.svg" className="h-12 mx-8" />
-									<img src="/static/logos/icevm.svg" className="h-12 mx-8" />
 									<img src="/static/logos/dediguard.svg" className="h-12 mx-8" />
 									<img src="/static/logos/interstellar.svg" className="h-10 mx-8" />
 								</ul>
 								<ul className="flex absolute top-0 animate-marquee-b-left items-center">
 									<img src="/static/logos/kubbur.svg" className="h-12 mx-8" />
-									<img src="/static/logos/icevm.svg" className="h-12 mx-8" />
 									<img src="/static/logos/dediguard.svg" className="h-12 mx-8" />
 									<img src="/static/logos/interstellar.svg" className="h-10 mx-8" />
 								</ul>
