@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import Layout from '../../components/Layout'
 
-export default function Home() {
+export default function About() {
 	return (<>
 		<Head>
 			<title>About us | KVM Group</title>

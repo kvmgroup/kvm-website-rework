@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 import Layout from '../../components/Layout'
 
-export default function Home() {
+export default function EnvironmentalPolicy() {
 	return (<>
 		<Head>
 			<title>Environmental Conservation | KVM Group</title>
@@ -24,5 +24,5 @@ export default function Home() {
                 <p className="text-lg">While we won't use any of these efforts as excuses for emitting CO<sup>2</sup> we still thought we'd mention them here as they are still a very real part of our environmental conservation effort.</p>
             </div>
         </Layout>
-    </>)
+    </>);
 }
