@@ -1,8 +1,7 @@
-import 'tailwindcss/tailwind.css'
-import '../styles/imports.css'
+import '../styles/tailwind.css'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function KVM({ Component, pageProps }) {
+	return <Component {...pageProps} />
 }
 
-export default MyApp
+export default KVM;
