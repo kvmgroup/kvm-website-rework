@@ -10,7 +10,8 @@ module.exports = {
 			backgroundImage: theme => ({
 				'hero': "url('/static/images/lance-anderson-f2NKjOg6JBE-unsplash.jpg')",
 				'about': "url('/static/images/lance-anderson-ni6Vv9tDAjE-unsplash.jpg')",
-				'team': "url('/static/images/kalkofnsvegur.jpg')"
+				'team': "url('/static/images/kalkofnsvegur.jpg')",
+				'black-beach': "url('/static/images/connor-dugan-2l9BhKOvSNI-unsplash.jpg')"
 			}),
 			backgroundPosition: {
 				initial: 'initial'
