@@ -7,8 +7,10 @@ export function Member({name, position, image, children}) {
             <h3 className="text-xl font-medium">{name}</h3>
             <p>{position}</p>
         </div>
-        <div className="flex flex-grow justify-center gap-4 pt-6 items-end">
-            {children}
+        <div className="flex flex-grow justify-center pt-6 items-end">
+            <div className="flex gap-4 items-center">
+                {children}
+            </div>
         </div>
     </div>);
 }
