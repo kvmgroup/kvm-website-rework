@@ -31,8 +31,8 @@ export default function Layout({children}) {
 	const [menu, setMenu] = useState(false);
 
 	return (<>
-		<Headroom className="z-50">
-			<div className="bg-white w-full z-50">
+		<Headroom className="z-60 relative">
+			<div className="bg-white w-full z-60">
 				<div className="px-8 lg:px-12 py-8 lg:py-0 flex items-center gap-4">
 					<Link href="/"><a className="group"><img src="/static/logos/kvm_light.svg" className="h-8 transition duration-150 group-hover:opacity-80" /></a></Link>
 					<div className="hidden lg:flex">
