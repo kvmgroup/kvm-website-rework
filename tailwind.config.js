@@ -8,10 +8,10 @@ module.exports = {
 		},
 		extend: {
 			backgroundImage: theme => ({
-				'hero': "url('/static/images/lance-anderson-f2NKjOg6JBE-unsplash.jpg')",
-				'about': "url('/static/images/lance-anderson-ni6Vv9tDAjE-unsplash.jpg')",
-				'team': "url('/static/images/kalkofnsvegur.jpg')",
-				'black-beach': "url('/static/images/connor-dugan-2l9BhKOvSNI-unsplash.jpg')"
+				'hero': "url('https://imgproxy.kvm.group/preset:sharp/resize:fit:950:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/lance-anderson-f2NKjOg6JBE-unsplash.jpg')",
+				'about': "url('https://imgproxy.kvm.group/preset:sharp/resize:fit:1920:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/lance-anderson-ni6Vv9tDAjE-unsplash.jpg')",
+				'team': "url('https://imgproxy.kvm.group/preset:sharp/resize:fit:1920:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/kalkofnsvegur.jpg@png')",
+				'black-beach': "url('https://imgproxy.kvm.group/preset:sharp/resize:fit:1920:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/connor-dugan-2l9BhKOvSNI-unsplash.jpg@png')"
 			}),
 			backgroundPosition: {
 				initial: 'initial'
