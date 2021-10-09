@@ -69,7 +69,7 @@ export default function Layout({children}) {
 		</div>
         {children}
 		<div className="bg-gray-900">
-			<div className="px-16 md:px-24 lg:px-32 xl:px-40 py-16">
+			<div className="px-8 md:px-24 lg:px-32 xl:px-40 py-16">
 				<div className="w-full">
 					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
 						<div>

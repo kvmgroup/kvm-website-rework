@@ -9,7 +9,7 @@ h2 {
 }
 
 .container {
-    @apply max-w-screen-xl mx-auto px-4;
+    @apply max-w-screen-xl mx-auto px-8;
 }
 
 .team-grid {

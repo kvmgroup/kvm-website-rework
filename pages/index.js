@@ -13,7 +13,7 @@ export default function Home() {
 		<Layout>
 			<div className="min-h-screen flex flex-col md:flex-row">
 				<div className="h-screen md:w-1/2 bg-gray-900 flex flex-col">
-					<div className="pt-8 pb-14 md:py-0 px-16 md:px-24 lg:px-32 xl:px-40 flex flex-grow justify-center items-center">
+					<div className="pt-8 pb-14 md:py-0 px-8 md:px-24 lg:px-32 xl:px-40 flex flex-grow justify-center items-center">
 						<div>
 							<h1 className="text-4xl xl:text-5xl text-white font-semibold">KVM is a global leader at innovation in the hosting space.</h1>
 							<p className="lg:text-xl xl:text-2xl text-gray-100 font-normal mt-6 lg:mt-12">The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands.</p>
@@ -53,7 +53,7 @@ export default function Home() {
 			<div className="flex flex-col md:flex-row">
 				<div className="flex-grow bg-team bg-cover bg-no-repeat bg-center md:bg-initial" />
 				<div className="py-32 h-2/3 md:w-1/2 bg-gray-900 flex flex-col">
-					<div className="pt-8 pb-14 md:py-0 px-16 md:px-24 lg:px-32 xl:px-40 flex flex-grow justify-center items-center">
+					<div className="pt-8 pb-14 md:py-0 px-8 md:px-24 lg:px-32 xl:px-40 flex flex-grow justify-center items-center">
 						<div>
 							<h1 className="text-4xl xl:text-5xl text-white font-semibold">Supported by an amazing team</h1>
 							<p className="lg:text-xl xl:text-2xl text-gray-100 font-normal mt-6 lg:mt-12">Our ideas and ambitions are all but nothing without the people behind them. Our team comes from every corner of the world and makes KVM a reality.</p>
