@@ -9,6 +9,9 @@ export default function Team() {
 	return (<>
 		<Head>
 			<title>Our team | KVM Group</title>
+            <meta name="title" content="Our team — KVM Group" />
+			<meta property="og:title" content="Our team — KVM Group" />
+			<meta property="twitter:title" content="Our team — KVM Group" />
 		</Head>
         <Layout>
             <div className="h-hero bg-team bg-center bg-cover flex items-center justify-center">

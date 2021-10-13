@@ -7,6 +7,9 @@ export default function About() {
 	return (<>
 		<Head>
 			<title>About us | KVM Group</title>
+            <meta name="title" content="About us — KVM Group" />
+			<meta property="og:title" content="About us — KVM Group" />
+			<meta property="twitter:title" content="About us — KVM Group" />
 		</Head>
         <Layout>
             <div className="h-hero bg-about bg-center bg-cover flex items-center justify-center">

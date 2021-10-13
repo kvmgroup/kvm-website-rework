@@ -1,5 +1,3 @@
-// Our goal is to expand upon the basic framework that's been laid out in the hosting space and try something new for a change.
-
 import Head from 'next/head'
 import Link from 'next/link'
 
@@ -9,6 +7,9 @@ export default function Home() {
 	return (<>
 		<Head>
 			<title>KVM Group</title>
+			<meta name="title" content="Homepage — KVM Group" />
+			<meta property="og:title" content="Homepage — KVM Group" />
+			<meta property="twitter:title" content="Homepage — KVM Group" />
 		</Head>
 		<Layout>
 			<div className="min-h-screen flex flex-col md:flex-row">

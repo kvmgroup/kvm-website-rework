@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Head from 'next/head'
 import Headroom from 'react-headroom'
 import { useRouter } from 'next/router'
 import { useState } from 'react';
@@ -31,6 +32,20 @@ export default function Layout({children}) {
 	const [menu, setMenu] = useState(false);
 
 	return (<>
+		<Head>
+			<meta name="description" content="The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
+			<meta name="theme-color" content="#004ae4" />
+
+			<meta property="og:type" content="website" />
+			<meta property="og:url" content="https://www.kvm.group/" />
+			<meta property="og:description" content="The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
+			<meta property="og:image" content="https://imgproxy.kvm.group/preset:sharp/resize:fit:1200:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/card.png" />
+
+			<meta property="twitter:card" content="summary_large_image" />
+			<meta property="twitter:url" content="https://www.kvm.group/" />
+			<meta property="twitter:description" content="The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
+			<meta property="twitter:image" content="https://imgproxy.kvm.group/preset:sharp/resize:fit:1200:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/card.png" />
+		</Head>
 		<Headroom className="z-60 relative">
 			<div className="bg-white w-full z-60">
 				<div className="px-8 lg:px-12 py-8 lg:py-0 flex items-center gap-4">

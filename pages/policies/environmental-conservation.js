@@ -7,6 +7,9 @@ export default function EnvironmentalPolicy() {
 	return (<>
 		<Head>
 			<title>Environmental Conservation | KVM Group</title>
+            <meta name="title" content="Environmental Conservation — KVM Group" />
+			<meta property="og:title" content="Environmental Conservation — KVM Group" />
+			<meta property="twitter:title" content="Environmental Conservation — KVM Group" />
 		</Head>
         <Layout>
             <div className="h-hero bg-black-beach bg-top bg-cover flex items-center justify-center">

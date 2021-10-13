@@ -7,6 +7,9 @@ export default function Contact() {
 	return (<>
 		<Head>
 			<title>Contact us | KVM Group</title>
+            <meta name="title" content="Contact us — KVM Group" />
+			<meta property="og:title" content="Contact us — KVM Group" />
+			<meta property="twitter:title" content="Contact us — KVM Group" />
 		</Head>
         <Layout>
             <div className="h-hero bg-about bg-center bg-cover flex items-center justify-center">

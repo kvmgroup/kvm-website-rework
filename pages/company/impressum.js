@@ -7,6 +7,9 @@ export default function Impressum() {
 	return (<>
 		<Head>
 			<title>Impressum | KVM Group</title>
+            <meta name="title" content="Impressum — KVM Group" />
+			<meta property="og:title" content="Impressum — KVM Group" />
+			<meta property="twitter:title" content="Impressum — KVM Group" />
 		</Head>
         <Layout>
             <div className="h-hero bg-about bg-center bg-cover flex items-center justify-center">

@@ -7,6 +7,9 @@ export default function Brands() {
 	return (<>
 		<Head>
 			<title>Brands | KVM Group</title>
+            <meta name="title" content="Brands — KVM Group" />
+			<meta property="og:title" content="Brands — KVM Group" />
+			<meta property="twitter:title" content="Brands — KVM Group" />
 		</Head>
         <Layout>
             <div className="h-hero bg-about bg-center bg-cover flex items-center justify-center">
