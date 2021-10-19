@@ -40,8 +40,10 @@ export default function Team() {
                     </Member>
 		    <Member name="Petar Markov" position="Chief Information Officer" image="petar.png">
                         <Email address="petar@kvm.group" />
+                        <Instagram handle="leifursteinng" />
                         <Twitter handle="kiv0x" />
                         <GitHub handle="kivox" />
+                        <LinkedIn handle="kjartanhr" />
                     </Member>
                     <Member name="Jack Cosens" position="Chief Financial Officer" image="jack.png">
                         <Email address="jack@kvm.group" />
