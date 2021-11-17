@@ -27,7 +27,7 @@ export default function Team() {
                         <Instagram handle="leifursteinng" />
                         <LinkedIn handle="leifursteinng" />
                     </Member>
-                    <Member name="Fredrik Alstad" position="Chief Operating Officer" image="unknown.png">
+                    <Member name="Fredrik Alstad" position="Chief Operating Officer" image="fredrik.png">
                         <Email address="fredrik@kvm.group" />
                         <Twitter handle="craxydev" />
                         <GitHub handle="craxydev" />
@@ -38,7 +38,7 @@ export default function Team() {
                         <GitHub handle="kjartanhr" />
                         <LinkedIn handle="kjartanhr" />
                     </Member>
-		        <Member name="Petar Markov" position="Chief Information Officer" image="games_petar.png">
+		        <Member name="Petar Markov" position="Chief Information Officer" image="petar.png">
                         <Email address="petar@kvm.group" />
                         <Instagram handle="markp_2005" />
                         <Twitter handle="kiv0x" />
