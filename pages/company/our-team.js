@@ -38,7 +38,7 @@ export default function Team() {
                         <GitHub handle="kjartanhr" />
                         <LinkedIn handle="kjartanhr" />
                     </Member>
-		            <Member name="Petar Markov" position="Chief Information Officer" image="petar.png">
+		        <Member name="Petar Markov" position="Chief Information Officer" image="games_petar.png">
                         <Email address="petar@kvm.group" />
                         <Instagram handle="markp_2005" />
                         <Twitter handle="kiv0x" />
