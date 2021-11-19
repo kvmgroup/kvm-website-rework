@@ -18,7 +18,7 @@ export default function Home() {
 						<div>
 							<h1 className="text-4xl xl:text-5xl text-white font-semibold">KVM is a global leader at innovation in the hosting space.</h1>
 							<p className="lg:text-xl xl:text-2xl text-gray-100 font-normal mt-6 lg:mt-12">The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands.</p>
-							<Link href="/company/about"><a className="text-normal md:text-lg mt-8 md:mt-12 lg:mt-16 xl:mt-24 inline-block bg-white py-4 md:py-5 px-8 md:px-12 font-medium transition duration-150 hover:opacity-80 transform hover:-translate-y-0.5">Read more</a></Link>
+							<Link href="/company/about"><a className="text-normal md:text-lg mt-8 md:mt-12 lg:mt-16 xl:mt-24 inline-block bg-white py-4 md:py-5 px-8 md:px-12 font-medium transition duration-150 hover:opacity-80 transform hover:-translate-y-0.5">Discover KVM Group</a></Link>
 						</div>
 					</div>
 				</div>
