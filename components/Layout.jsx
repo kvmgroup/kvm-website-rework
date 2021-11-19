@@ -51,11 +51,11 @@ export default function Layout({children}) {
 				<div className="px-8 lg:px-12 py-8 lg:py-0 flex items-center gap-4">
 					<Link href="/"><a className="group"><img src="/static/logos/kvm_light.svg" height="32" width="207" className="h-8 transition duration-150 group-hover:opacity-80" alt="KVM Group Logo" /></a></Link>
 					<div className="hidden lg:flex">
-						<Link href="/"><a className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Home</a></Link>
-						<Link href="/company/about"><a className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">About us</a></Link>
-						<Link href="/company/impressum"><a className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Impressum</a></Link>
-						<Link href="/company/brands"><a className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Brands</a></Link>
-						<Link href="/company/contact"><a className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Contact us</a></Link>
+						<Link href="/"><a href="/" className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Home</a></Link>
+						<Link href="/company/about"><a href="/company/about" className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">About us</a></Link>
+						<Link href="/company/impressum"><a href="/company/impressum" className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Impressum</a></Link>
+						<Link href="/company/brands"><a href="/company/brands" className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Brands</a></Link>
+						<Link href="/company/contact"><a href="/company/contact" className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Contact us</a></Link>
 					</div>
 					<div className="flex lg:hidden flex-grow justify-end items-center">
 						<button onClick={() => {
@@ -104,31 +104,31 @@ export default function Layout({children}) {
 						<div>
 							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">information</h2>
 							<div className="pt-3">
-								<Link href="/legal/general-terms"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">General terms</a></Link>
-								<Link href="/legal/privacy-policy"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Privacy Policy</a></Link>
-								<Link href="/legal/acceptable-use"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Acceptable Use Policy</a></Link>
-								<Link href="/policies/environmental-conservation"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Environmental Conservation</a></Link>
+								<Link href="/legal/general-terms"><a href="/legal/general-terms" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">General terms</a></Link>
+								<Link href="/legal/privacy-policy"><a href="/legal/privacy-policy" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Privacy Policy</a></Link>
+								<Link href="/legal/acceptable-use"><a href="/legal/acceptable-use" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Acceptable Use Policy</a></Link>
+								<Link href="/policies/environmental-conservation"><a href="/policies/environmental-conservation" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Environmental Conservation</a></Link>
 							</div>
 						</div>
 						<div>
 							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">resources</h2>
 							<div className="pt-3">
-								<Link href="/investors"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">Investor relations</a></Link>
-								<Link href="/resources/whois"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">WHOIS</a></Link>
+								<Link href="/investors"><a href="/investors" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">Investor relations</a></Link>
+								<Link href="/resources/whois"><a href="/resources/whois" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">WHOIS</a></Link>
 								<a href="https://opensource.kvm.group/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Open Source</a>
 								<a href="https://developers.kvm.group/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Documentation</a>
-								<Link href="/resources/careers"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Careers</a></Link>
-								<Link href="/resources/presskit"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Presskit</a></Link>
+								<Link href="/resources/careers"><a href="/resources/careers" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Careers</a></Link>
+								<Link href="/resources/presskit"><a href="/resources/presskit" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Presskit</a></Link>
 							</div>
 						</div>
 						<div>
 							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">Company</h2>
 							<div className="pt-3">
-								<Link href="/company/about"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">About us</a></Link>
-								<Link href="/company/impressum"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Impressum</a></Link>
-								<Link href="/company/contact"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Contact us</a></Link>
-								<Link href="/company/brands"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Brands</a></Link>
-								<Link href="/company/our-team"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Our team</a></Link>
+								<Link href="/company/about"><a href="/company/about" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">About us</a></Link>
+								<Link href="/company/impressum"><a href="/company/impressum" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Impressum</a></Link>
+								<Link href="/company/contact"><a href="/company/contact" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Contact us</a></Link>
+								<Link href="/company/brands"><a href="/company/brands" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Brands</a></Link>
+								<Link href="/company/our-team"><a href="/company/our-team" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Our team</a></Link>
 							</div>
 						</div>
 						<div>
