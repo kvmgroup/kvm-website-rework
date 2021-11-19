@@ -33,23 +33,23 @@ export default function Layout({children}) {
 
 	return (<>
 		<Head>
-			<meta name="description" content="The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
+			<meta name="description" content="KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
 			<meta name="theme-color" content="#004ae4" />
 
 			<meta property="og:type" content="website" />
 			<meta property="og:url" content="https://www.kvm.group/" />
-			<meta property="og:description" content="The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
+			<meta property="og:description" content="KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
 			<meta property="og:image" content="https://imgproxy.kvm.group/preset:sharp/resize:fit:1200:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/card.png" />
 
 			<meta property="twitter:card" content="summary_large_image" />
 			<meta property="twitter:url" content="https://www.kvm.group/" />
-			<meta property="twitter:description" content="The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
+			<meta property="twitter:description" content="KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands." />
 			<meta property="twitter:image" content="https://imgproxy.kvm.group/preset:sharp/resize:fit:1200:0:0/gravity:sm/plain/https://edge.kvm.group/assets/www.kvm.group/images/card.png" />
 		</Head>
 		<Headroom className="z-60 relative">
 			<div className="bg-white w-full z-60">
 				<div className="px-8 lg:px-12 py-8 lg:py-0 flex items-center gap-4">
-					<Link href="/"><a className="group"><img src="/static/logos/kvm_light.svg" className="h-8 transition duration-150 group-hover:opacity-80" /></a></Link>
+					<Link href="/"><a className="group"><img src="/static/logos/kvm_light.svg" height="32" width="207" className="h-8 transition duration-150 group-hover:opacity-80" alt="KVM Group Logo" /></a></Link>
 					<div className="hidden lg:flex">
 						<Link href="/"><a className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">Home</a></Link>
 						<Link href="/company/about"><a className="py-8 px-6 text-lg hover:bg-gray-100 transition duration-150">About us</a></Link>
@@ -88,7 +88,7 @@ export default function Layout({children}) {
 				<div className="w-full">
 					<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-8">
 						<div>
-							<p className="text-xl text-white">KVM Group Limited</p>
+							<p className="text-2xl md:text-xl text-white">KVM Group Limited</p>
 
 							<p className="mt-1.5 text-gray-200">Company no. 13331435</p>
 							<p className="text-gray-200">ICO no. ZB077431</p>
@@ -102,41 +102,42 @@ export default function Layout({children}) {
 							<p className="text-gray-200">+354 539 5409</p>
 						</div>
 						<div>
-							<h2 className="text-white text-xl font-medium uppercase">information</h2>
+							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">information</h2>
 							<div className="pt-3">
-								<Link href="/legal/general-terms"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">General terms</a></Link>
-								<Link href="/legal/privacy-policy"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Privacy Policy</a></Link>
-								<Link href="/legal/acceptable-use"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Acceptable Use Policy</a></Link>
-								<Link href="/policies/environmental-conservation"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Environmental Conservation</a></Link>
+								<Link href="/legal/general-terms"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">General terms</a></Link>
+								<Link href="/legal/privacy-policy"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Privacy Policy</a></Link>
+								<Link href="/legal/acceptable-use"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Acceptable Use Policy</a></Link>
+								<Link href="/policies/environmental-conservation"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Environmental Conservation</a></Link>
 							</div>
 						</div>
 						<div>
-							<h2 className="text-white text-xl font-medium uppercase">resources</h2>
+							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">resources</h2>
 							<div className="pt-3">
-								<Link href="/investors"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Investor relations</a></Link>
-								<Link href="/resources/whois"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">WHOIS</a></Link>
-								<a href="https://opensource.kvm.group/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Open Source</a>
-								<a href="https://developers.kvm.group/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Documentation</a>
-								<Link href="/resources/careers"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Careers</a></Link>
-								<Link href="/resources/presskit"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Presskit</a></Link>
+								<Link href="/investors"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">Investor relations</a></Link>
+								<Link href="/resources/whois"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">WHOIS</a></Link>
+								<a href="https://opensource.kvm.group/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Open Source</a>
+								<a href="https://developers.kvm.group/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Documentation</a>
+								<Link href="/resources/careers"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Careers</a></Link>
+								<Link href="/resources/presskit"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Presskit</a></Link>
 							</div>
 						</div>
 						<div>
-							<h2 className="text-white text-xl font-medium uppercase">Company</h2>
+							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">Company</h2>
 							<div className="pt-3">
-								<Link href="/company/about"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">About us</a></Link>
-								<Link href="/company/impressum"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Impressum</a></Link>
-								<Link href="/company/contact"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Contact us</a></Link>
-								<Link href="/company/brands"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Brands</a></Link>
-								<Link href="/company/our-team"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Our team</a></Link>
+								<Link href="/company/about"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">About us</a></Link>
+								<Link href="/company/impressum"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Impressum</a></Link>
+								<Link href="/company/contact"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Contact us</a></Link>
+								<Link href="/company/brands"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Brands</a></Link>
+								<Link href="/company/our-team"><a className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Our team</a></Link>
 							</div>
 						</div>
 						<div>
-							<h2 className="text-white text-xl font-medium uppercase">External links</h2>
+							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">External links</h2>
 							<div className="pt-3">
-								<a href="https://www.kubbur.com/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">KUBBUR.com</a>
-								<a href="https://www.interstellar.com/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">Interstellar.nz</a>
-								<a href="https://www.AS211350.net/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1">AS211350.net</a>
+								<a href="https://www.kubbur.com/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">KUBBUR.com</a>
+								<a href="https://www.icevm.co.uk/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">IceVM.co.uk</a>
+								<a href="https://www.interstellar.com/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Interstellar.nz</a>
+								<a href="https://www.AS211350.net/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">AS211350.net</a>
 							</div>
 						</div>
 					</div>
