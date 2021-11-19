@@ -33,14 +33,14 @@ export default function Home() {
 							<div className="flex whitespace-no-wrap overflow-x-hidden">
 								<div className="relative">
 									<ul className="flex animate-marquee-a-left items-center">
-										<img src="/static/logos/kubbur.svg" className="h-12 mx-8" alt="KUBBUR Logo" />
-										<img src="/static/logos/icevm.svg" className="h-12 mx-8" alt="IceVM Logo" />
-										<img src="/static/logos/interstellar.svg" className="h-10 mx-8" alt="Interstellar Logo" />
+										<img src="/static/logos/kubbur.svg" className="h-12 mx-8" alt="KUBBUR Logo" height="48" width="198" />
+										<img src="/static/logos/icevm.svg" className="h-12 mx-8" alt="IceVM Logo" height="48" width="160" />
+										<img src="/static/logos/interstellar.svg" className="h-10 mx-8" alt="Interstellar Logo" height="40" width="268" />
 									</ul>
 									<ul className="flex absolute top-0 animate-marquee-b-left items-center">
-										<img src="/static/logos/kubbur.svg" className="h-12 mx-8" alt="KUBBUR Logo" />
-										<img src="/static/logos/icevm.svg" className="h-12 mx-8" alt="IceVM Logo" />
-										<img src="/static/logos/interstellar.svg" className="h-10 mx-8" alt="Interstellar Logo" />
+										<img src="/static/logos/kubbur.svg" className="h-12 mx-8" alt="KUBBUR Logo" height="48" width="198" />
+										<img src="/static/logos/icevm.svg" className="h-12 mx-8" alt="IceVM Logo" height="48" width="160" />
+										<img src="/static/logos/interstellar.svg" className="h-10 mx-8" alt="Interstellar Logo" height="40" width="268" />
 									</ul>
 								</div>
 							</div>

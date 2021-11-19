@@ -67,7 +67,7 @@ export default function Layout({children}) {
 									document.body.style.overflowY = "hidden";
 								}
 							}
-						}}>
+						}} aria-label="Toggle Mobile Navigation">
 							{!menu ? <MenuIcon className="h-8 w-8" /> :
 							<MenuAlt1Icon className="h-8 w-8" />}
 						</button>
