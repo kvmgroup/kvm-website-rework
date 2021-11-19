@@ -7,12 +7,12 @@ import { Member, LinkedIn, Twitter, Email, GitHub, Instagram } from '../../compo
 
 export default function Team() {
 	return (<>
-		<Head>
-			<title>Our team | KVM Group</title>
-            <meta name="title" content="Our team — KVM Group" />
-			<meta property="og:title" content="Our team — KVM Group" />
-			<meta property="twitter:title" content="Our team — KVM Group" />
-		</Head>
+	<Head>
+		<title>Our team | KVM Group</title>
+        	<meta name="title" content="Our team — KVM Group" />
+		<meta property="og:title" content="Our team — KVM Group" />
+		<meta property="twitter:title" content="Our team — KVM Group" />
+	</Head>
         <Layout>
             <div className="h-hero bg-team bg-center bg-cover flex items-center justify-center">
                 <div className="bg-gray-900 p-8 shadow">
@@ -27,7 +27,7 @@ export default function Team() {
                         <Instagram handle="leifursteinng" />
                         <LinkedIn handle="leifursteinng" />
                     </Member>
-                    <Member name="Fredrik Alstad" position="Chief Operating Officer" image="unknown.png">
+                    <Member name="Fredrik Alstad" position="Chief Operating Officer" image="fredrik.png">
                         <Email address="fredrik@kvm.group" />
                         <Twitter handle="craxydev" />
                         <GitHub handle="craxydev" />
@@ -38,17 +38,19 @@ export default function Team() {
                         <GitHub handle="kjartanhr" />
                         <LinkedIn handle="kjartanhr" />
                     </Member>
+		        <Member name="Petar Markov" position="Chief Information Officer" image="petar.png">
+                        <Email address="petar@kvm.group" />
+                        <Instagram handle="markp_2005" />
+                        <Twitter handle="kiv0x" />
+                        <GitHub handle="kivox" />
+                        <LinkedIn handle="kivox" />
+                    </Member>
                     <Member name="Jack Cosens" position="Chief Financial Officer" image="jack.png">
                         <Email address="jack@kvm.group" />
                     </Member>
                 </div>
                 <h2 className="mt-6">Management</h2>
                 <div className="team-grid">
-                    <Member name="Petar Markov" position="Chief Information Officer" image="petar.png">
-                        <Email address="petar@kvm.group" />
-                        <Twitter handle="kiv0x" />
-                        <GitHub handle="kivox" />
-                    </Member>
                     <Member name="Gunnar Áki Þorsteinsson" position="Public Relations Director" image="gunnar.png">
                         <Twitter handle="gunnar_aki" />
                         <Instagram handle="gunnar_2004" />
