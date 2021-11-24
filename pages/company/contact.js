@@ -25,7 +25,7 @@ export default function Contact() {
                 <p className="text-lg">Abuse enquiries: <a href="mailto:abuse@kvm.group" className="underline">abuse@kvm.group</a></p>
                 <p className="text-lg">UK telephone line: <a href="tel:+442045771433" className="underline">+44 204-577 1433</a></p>
                 <p className="text-lg">Nordic telephone line: <a href="tel:+3545395409" className="underline">+354 539 5409</a></p>
-                <p className="text-lg">Post: Kalkofnsvegur, 101 Reykjavík, Iceland</p>
+                <p className="text-lg">Post: Kalkofnsvegur 2, 101 Reykjavík, Iceland</p>
                 <h2 className="my-6">KUBBUR brand contact information</h2>
                 <p className="text-lg">General enquiries: <a href="mailto:hello@kubbur.com" className="underline">hello@kubbur.com</a></p>
                 <p className="text-lg">Business enquiries: <a href="mailto:business@kubbur.com" className="underline">business@kubbur.com</a></p>
