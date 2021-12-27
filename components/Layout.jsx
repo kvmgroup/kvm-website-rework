@@ -95,7 +95,7 @@ export default function Layout({children}) {
 
 							<p className="mt-5 text-gray-200">12 Constance Street</p>
 							<p className="text-gray-200">E16 2DQ London, United Kingdom</p>
-							<p className="text-gray-200">+44 204-577 1433</p>
+							<p className="text-gray-200">+44 204-577 1595</p>
 
 							<p className="mt-5 text-gray-200">Kalkofnsvegur 2</p>
 							<p className="text-gray-200">101 Reykjavík, Iceland</p>
