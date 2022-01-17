@@ -51,16 +51,9 @@ export default function Team() {
                 </div>
                 <h2 className="mt-6">Management</h2>
                 <div className="team-grid">
-                    <Member name="Gunnar Áki Þorsteinsson" position="Public Relations Director" image="gunnar.png">
-                        <Twitter handle="gunnar_aki" />
-                        <Instagram handle="gunnar_2004" />
-                    </Member>
-                    <Member name="Nicklas Yli-Länttä" position="Brand Manager, KUBBUR" image="unknown.png">
+                    <Member name="Nicklas Yli-Länttä" position="Brand Manager, KUBBUR" image="fredrik.png">
                         <Twitter handle="timanttikuutio" />
                         <GitHub handle="timanttikuutio" />
-                    </Member>
-                    <Member name="Nathan Gimblett" position="Network Manager" image="unknown.png">
-                        <Twitter handle="NathanG_MC" />
                     </Member>
                 </div>
             </div>
