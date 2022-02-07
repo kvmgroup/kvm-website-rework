@@ -108,6 +108,7 @@ export default function Layout({children}) {
 								<Link href="/legal/privacy-policy"><a href="/legal/privacy-policy" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Privacy Policy</a></Link>
 								<Link href="/legal/acceptable-use"><a href="/legal/acceptable-use" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Acceptable Use Policy</a></Link>
 								<Link href="/policies/environmental-conservation"><a href="/policies/environmental-conservation" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Environmental Conservation</a></Link>
+								<a href="https://climate.stripe.com/VqQdyN" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Carbon removal</a>
 							</div>
 						</div>
 						<div>
