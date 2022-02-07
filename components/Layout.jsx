@@ -95,11 +95,11 @@ export default function Layout({children}) {
 
 							<p className="mt-5 text-gray-200">12 Constance Street</p>
 							<p className="text-gray-200">E16 2DQ London, United Kingdom</p>
-							<p className="text-gray-200">+44 204-577 1595</p>
+							<p className="text-gray-200">+44 204-577 1433</p>
 
-							<p className="mt-5 text-gray-200">Kalkofnsvegur 2</p>
+							<p className="mt-5 text-gray-200">Ægisíða 62</p>
 							<p className="text-gray-200">101 Reykjavík, Iceland</p>
-							<p className="text-gray-200">+354 539 5409</p>
+							<p className="text-gray-200">+44 204-577 1433</p>
 						</div>
 						<div>
 							<h2 className="text-white text-2xl md:text-xl font-medium uppercase">information</h2>
@@ -136,7 +136,7 @@ export default function Layout({children}) {
 							<div className="pt-3">
 								<a href="https://www.kubbur.com/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 text-lg md:text-base">KUBBUR.com</a>
 								<a href="https://www.icevm.co.uk/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">IceVM.co.uk</a>
-								<a href="https://www.interstellar.com/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Interstellar.nz</a>
+								<a href="https://www.interstellar.nz/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">Interstellar.nz</a>
 								<a href="https://www.AS211350.net/" target="_blank" className="block text-gray-200 transition duration-150 hover:text-white transform hover:translate-x-1 mt-2 md:mt-0 text-lg md:text-base">AS211350.net</a>
 							</div>
 						</div>
