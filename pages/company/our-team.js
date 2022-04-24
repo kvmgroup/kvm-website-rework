@@ -38,16 +38,6 @@ export default function Team() {
                         <GitHub handle="kjartanhr" />
                         <LinkedIn handle="kjartanhr" />
                     </Member>
-		        <Member name="Petar Markov" position="Chief Information Officer" image="petar.png">
-                        <Email address="petar@kvm.group" />
-                        <Instagram handle="markp_2005" />
-                        <Twitter handle="kiv0x" />
-                        <GitHub handle="kivox" />
-                        <LinkedIn handle="kivox" />
-                    </Member>
-                    <Member name="Jack Cosens" position="Chief Financial Officer" image="jack.png">
-                        <Email address="jack@kvm.group" />
-                    </Member>
                 </div>
                 <h2 className="mt-6">Management</h2>
                 <div className="team-grid">
