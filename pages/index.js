@@ -16,8 +16,8 @@ export default function Home() {
 				<div className="h-screen md:w-1/2 bg-gray-900 flex flex-col">
 					<div className="pt-8 pb-14 md:py-0 px-8 md:px-24 lg:px-32 xl:px-40 flex flex-grow justify-center items-center">
 						<div>
-							<h1 className="text-4xl xl:text-5xl text-white font-semibold">KVM is a global leader at innovation in the hosting space.</h1>
-							<p className="lg:text-xl xl:text-2xl text-gray-100 font-normal mt-6 lg:mt-12">The KVM Group leads in the game & web hosting market by bringing new, innovative ideas to customers through it's various brands.</p>
+							<h1 className="text-4xl xl:text-5xl text-white font-semibold">KVM is creating innovative software for agile companies.</h1>
+							<p className="lg:text-xl xl:text-2xl text-gray-100 font-normal mt-6 lg:mt-12">KVM Group is a software company that works with and for the agile, fast moving part of the IaaS & SaaS industry. Let's move fast and break things together.</p>
 							<Link href="/company/about"><a className="text-normal md:text-lg mt-8 md:mt-12 lg:mt-16 xl:mt-24 inline-block bg-white py-4 md:py-5 px-8 md:px-12 font-medium transition duration-150 hover:opacity-80 transform hover:-translate-y-0.5">Discover KVM Group</a></Link>
 						</div>
 					</div>
