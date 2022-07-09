@@ -27,23 +27,11 @@ export default function Team() {
                         <Instagram handle="leifursteinng" />
                         <LinkedIn handle="leifursteinng" />
                     </Member>
-                    <Member name="Fredrik Alstad" position="Chief Operating Officer" image="fredrik.png">
-                        <Email address="fredrik@kvm.group" />
-                        <Twitter handle="craxydev" />
-                        <GitHub handle="craxydev" />
-                    </Member>
-                    <Member name="Kjartan Hrafnkelsson" position="Chief Technology Officer" image="kjartan.png">
+                    <Member name="Kjartan Hrafnkelsson" position="Chief Operating Officer" image="kjartan.png">
                         <Email address="kjartan@kvm.group" />
                         <Twitter handle="kjartanhr" />
                         <GitHub handle="kjartanhr" />
                         <LinkedIn handle="kjartanhr" />
-                    </Member>
-                </div>
-                <h2 className="mt-6">Management</h2>
-                <div className="team-grid">
-                    <Member name="Nicklas Yli-Länttä" position="Brand Manager, KUBBUR" image="fredrik.png">
-                        <Twitter handle="timanttikuutio" />
-                        <GitHub handle="timanttikuutio" />
                     </Member>
                 </div>
             </div>
